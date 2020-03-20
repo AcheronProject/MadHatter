@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "keyboard_parts")(type "KiCad")(uri "${KIPRJMOD}/keyboard_parts.pretty")(options "")(descr ""))
+  (lib (name "Mad Hatter Graphics")(type "KiCad")(uri "${KIPRJMOD}/mad_hatter_graphics.pretty")(options "")(descr ""))
+)
