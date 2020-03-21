@@ -1,4 +1,7 @@
 (fp_lib_table
-  (lib (name "keyboard_parts")(type "KiCad")(uri "${KIPRJMOD}/keyboard_parts.pretty")(options "")(descr ""))
   (lib (name "Mad Hatter Graphics")(type "KiCad")(uri "${KIPRJMOD}/mad_hatter_graphics.pretty")(options "")(descr ""))
+  (lib (name "Acheron MX SolderMask")(type "KiCad")(uri "${KIPRJMOD}/AcheronLibrary/footprints/acheron_MX_SolderMask.pretty")(options "")(descr ""))
+  (lib (name "Acheron Connectors")(type "KiCad")(uri "${KIPRJMOD}/AcheronLibrary/footprints/acheron_Connectors.pretty")(options "")(descr ""))
+  (lib (name "Acheron Components")(type "KiCad")(uri "${KIPRJMOD}/AcheronLibrary/footprints/acheron_Components.pretty")(options "")(descr ""))
+  (lib (name "Acheron Hardware")(type "KiCad")(uri "${KIPRJMOD}/AcheronLibrary/footprints/acheron_Hardware.pretty")(options "")(descr ""))
 )
