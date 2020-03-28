@@ -1,5 +1,11 @@
-update=Fri 20 Mar 2020 06:10:03 PM -03
+update=Sat 28 Mar 2020 01:30:18 AM -03
 last_client=kicad
+[SchematicFrame]
+version=1
+[ModEditFrame]
+version=1
+[sheetnames]
+1=00000000-0000-0000-0000-00005e7e9960:
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -13,16 +19,20 @@ CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
-RequireCourtyardDefinitions=0
-ProhibitOverlappingCourtyards=0
 MinTrackWidth=0.2
 MinViaDiameter=0.4
 MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
+RequireCourtyardDefinitions=0
+ProhibitOverlappingCourtyards=0
 CopperEdgeClearance=0.01
-TrackWidth1=0.25
+TrackWidth1=0.254
+TrackWidth2=0.1524
+TrackWidth3=0.254
+TrackWidth4=0.508
+TrackWidth5=1.016
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -223,8 +233,8 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.2
-TrackWidth=0.25
+Clearance=0.1524
+TrackWidth=0.254
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
@@ -234,7 +244,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Power
-Clearance=0.2
+Clearance=0.508
 TrackWidth=0.381
 ViaDiameter=0.8
 ViaDrill=0.4

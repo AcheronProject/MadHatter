@@ -4,4 +4,5 @@
   (lib (name "Acheron Connectors")(type "KiCad")(uri "${KIPRJMOD}/AcheronLibrary/footprints/acheron_Connectors.pretty")(options "")(descr ""))
   (lib (name "Acheron Components")(type "KiCad")(uri "${KIPRJMOD}/AcheronLibrary/footprints/acheron_Components.pretty")(options "")(descr ""))
   (lib (name "Acheron Hardware")(type "KiCad")(uri "${KIPRJMOD}/AcheronLibrary/footprints/acheron_Hardware.pretty")(options "")(descr ""))
+  (lib (name "mad_hatter_components")(type "KiCad")(uri "${KIPRJMOD}/mad_hatter_components.pretty")(options "")(descr ""))
 )
