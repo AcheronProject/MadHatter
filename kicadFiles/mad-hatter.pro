@@ -1,11 +1,11 @@
-update=Sat 28 Mar 2020 01:30:18 AM -03
+update=Fri 17 Apr 2020 07:23:06 PM -03
 last_client=kicad
 [SchematicFrame]
 version=1
 [ModEditFrame]
 version=1
-[sheetnames]
-1=00000000-0000-0000-0000-00005e7e9960:
+[PcbFrame]
+version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -63,7 +63,7 @@ DimensionPrecision=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -253,3 +253,5 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[sheetnames]
+1=24c152d8-86aa-4984-b46b-351eaa7829c0:
