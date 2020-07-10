@@ -1,4 +1,4 @@
-update=Fri 10 Jul 2020 07:10:34 PM -03
+update=Fri 10 Jul 2020 07:16:42 PM -03
 last_client=kicad
 [PcbFrame]
 version=1
