@@ -1,4 +1,4 @@
-update=Sat 11 Jul 2020 12:08:58 AM -03
+update=Sat 11 Jul 2020 05:36:53 PM -03
 last_client=kicad
 [PcbFrame]
 version=1
@@ -348,4 +348,4 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [sheetnames]
-1=3d3b84e4-a50d-4de8-a1fb-1fd74101ce1d:
+1=ea860e6a-6045-4c26-b141-94ba12a23a02:
