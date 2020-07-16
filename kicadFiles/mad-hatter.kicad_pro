@@ -293,7 +293,7 @@
       "no_connect_dangling": "error",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "similar_labels": "error",
       "unresolved_variable": "error"
     }
@@ -375,7 +375,7 @@
   },
   "sheets": [
     [
-      "7d746d33-a3fb-4797-a6df-24b40ba1986e",
+      "ea9769a8-917a-4c2b-b5e4-f4087da6fc24",
       ""
     ]
   ],

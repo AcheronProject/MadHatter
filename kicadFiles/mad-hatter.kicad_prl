@@ -3,7 +3,7 @@
     "active_layer": 0,
     "active_layer_preset": "",
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -28,7 +28,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -50,7 +49,7 @@
       30,
       31
     ],
-    "visible_layers": "3f7ff_80000001"
+    "visible_layers": "1f7ff_80000001"
   },
   "meta": {
     "filename": "mad-hatter.kicad_prl",
