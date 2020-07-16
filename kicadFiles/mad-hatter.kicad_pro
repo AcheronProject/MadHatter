@@ -37,7 +37,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.15239999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -99,11 +99,12 @@
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.25,
         "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": 0.0
+        "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
         0.254,
         0.1524,
+        0.2,
         0.254,
         0.508,
         1.016
@@ -374,7 +375,7 @@
   },
   "sheets": [
     [
-      "7fe14c7a-a11c-4f8e-8d59-d1d4243e1830",
+      "79b823a3-4f5e-4be7-8423-66aa02d66d88",
       ""
     ]
   ],

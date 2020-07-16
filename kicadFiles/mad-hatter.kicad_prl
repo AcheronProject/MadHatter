@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 40,
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -50,7 +50,7 @@
       30,
       31
     ],
-    "visible_layers": "3f6ff_80000001"
+    "visible_layers": "3f7ff_80000001"
   },
   "meta": {
     "filename": "mad-hatter.kicad_prl",
