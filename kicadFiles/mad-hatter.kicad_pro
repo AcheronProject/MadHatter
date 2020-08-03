@@ -71,7 +71,7 @@
         "npth_inside_courtyard": "ignore",
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
-        "shorting_items": "error",
+        "shorting_items": "warning",
         "track_dangling": "warning",
         "track_width": "error",
         "tracks_crossing": "error",
@@ -382,7 +382,7 @@
   },
   "sheets": [
     [
-      "e5d48235-e9bc-4b9e-b253-a02724d71a29",
+      "38c5e7c3-48a5-4e7d-a572-77073e56078d",
       ""
     ]
   ],
