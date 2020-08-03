@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="1000"
+   inkscape:export-xdpi="1000"
+   inkscape:export-filename="/home/alvaro/Desktop/AcheronProject/MadHatter/graphics/mad_hatter_label.png"
+   sodipodi:docname="mad_hatter_label.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 120.99921 19.999994"
+   height="19.999994mm"
+   width="120.99921mm">
+  <defs
+     id="defs2">
+    <rect
+       id="rect12"
+       height="135.16515"
+       width="298.65302"
+       y="93.702942"
+       x="-0.95255953" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="20"
+     inkscape:window-x="0"
+     inkscape:window-height="711"
+     inkscape:window-width="1366"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="108.5066"
+     inkscape:cx="506.22194"
+     inkscape:zoom="0.6516791"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(46.209672,-101.37549)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <text
+       id="text18"
+       y="105.17066"
+       x="14.080175"
+       style="font-size:4.99519px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.12488"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';text-align:center;text-anchor:middle;stroke-width:0.12488"
+         y="105.17066"
+         x="14.080176"
+         id="tspan16"
+         sodipodi:role="line">MadHatter v1.0</tspan><tspan
+         id="tspan28"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';text-align:center;text-anchor:middle;stroke-width:0.12488"
+         y="110.17226"
+         x="14.080175"
+         sodipodi:role="line">Designed by Gondolindrim and rphlf</tspan><tspan
+         id="tspan30"
+         style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold Italic';text-align:center;text-anchor:middle;stroke-width:0.12488"
+         y="115.17387"
+         x="14.080176"
+         sodipodi:role="line">&quot;Everyone wants magical solutions for their problems</tspan><tspan
+         id="tspan32"
+         style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold Italic';text-align:center;text-anchor:middle;stroke-width:0.12488"
+         y="120.17547"
+         x="14.080173"
+         sodipodi:role="line">Yet everyone refuses to believe in magic&quot;</tspan><tspan
+         id="tspan20"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';text-align:center;text-anchor:middle;stroke-width:0.12488"
+         y="125.17065"
+         x="14.080175"
+         sodipodi:role="line" /></text>
+  </g>
+</svg>
