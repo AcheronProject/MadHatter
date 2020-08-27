@@ -377,12 +377,13 @@
     "page_layout_descr_file": "",
     "plot_directory": "../v1.0.4",
     "spice_adjust_passive_values": false,
+    "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
   "sheets": [
     [
-      "a4b082d1-7f1d-45bf-aeae-0e9b8832fb77",
+      "2d564584-7adc-4b21-90d6-5f9c48318175",
       ""
     ]
   ],
