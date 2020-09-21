@@ -1,4 +1,4 @@
-(kicad_sch (version 20200714) (host eeschema "(5.99.0-2849-g8bca145b7)")
+(kicad_sch (version 20200828) (generator eeschema)
 
   (page 1 1)
 
@@ -6,13 +6,13 @@
 
   (title_block
     (title "Mad Hatter PCB")
-    (date "2020-08-26")
-    (rev "V1.0.6")
+    (date "2020-09-21")
+    (rev "V1.0.7")
     (company "Designed by Gondolindrim")
   )
 
   (lib_symbols
-    (symbol "Connector_Generic:Conn_02x06_Counter_Clockwise" (pin_names hide)
+    (symbol "Connector_Generic:Conn_02x06_Counter_Clockwise" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 1.27 7.62 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -124,7 +124,7 @@
         )
       )
     )
-    (symbol "Device:CP1" (pin_numbers hide) (pin_names (offset 0.254) hide)
+    (symbol "Device:CP1" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -183,7 +183,7 @@
         )
       )
     )
-    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide)
+    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.254 1.778 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -232,7 +232,7 @@
         )
       )
     )
-    (symbol "Device:D" (pin_numbers hide) (pin_names hide)
+    (symbol "Device:D" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -290,7 +290,7 @@
         )
       )
     )
-    (symbol "Device:D_Schottky" (pin_numbers hide) (pin_names hide)
+    (symbol "Device:D_Schottky" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -352,7 +352,7 @@
         )
       )
     )
-    (symbol "Device:LED_ARGB" (pin_names (offset 0) hide)
+    (symbol "Device:LED_ARGB" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (id 0) (at 0 9.398 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -551,7 +551,7 @@
         )
       )
     )
-    (symbol "Device:L_Core_Ferrite" (pin_numbers hide) (pin_names hide)
+    (symbol "Device:L_Core_Ferrite" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "L" (id 0) (at -1.27 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -682,7 +682,7 @@
         )
       )
     )
-    (symbol "Device:Polyfuse" (pin_numbers hide) (pin_names (offset 0))
+    (symbol "Device:Polyfuse" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "F" (id 0) (at -2.54 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -736,7 +736,7 @@
         )
       )
     )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0))
+    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -774,7 +774,7 @@
         )
       )
     )
-    (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide)
+    (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 0.762 0.508 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -812,7 +812,7 @@
         )
       )
     )
-    (symbol "Driver_LED:IS31FL3733-QF" (pin_names (offset 0.508))
+    (symbol "Driver_LED:IS31FL3733-QF" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 1.27 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1038,7 +1038,7 @@
         )
       )
     )
-    (symbol "Mechanical:MountingHole"
+    (symbol "Mechanical:MountingHole" (in_bom yes) (on_board yes)
       (property "Reference" "H" (id 0) (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1064,7 +1064,7 @@
         (circle (center 0 0) (radius 1.27) (stroke (width 1.27)) (fill (type none)))
       )
     )
-    (symbol "Power_Protection:USBLC6-2SC6" (pin_names (offset 0.508) hide)
+    (symbol "Power_Protection:USBLC6-2SC6" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 2.54 8.89 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -1295,7 +1295,7 @@
         )
       )
     )
-    (symbol "Regulator_Linear:MCP1700-3302E_SOT23" (pin_names (offset 0.254))
+    (symbol "Regulator_Linear:MCP1700-3302E_SOT23" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -3.81 3.175 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1337,7 +1337,7 @@
         )
       )
     )
-    (symbol "Switch:SW_SPST" (pin_names (offset 0) hide)
+    (symbol "Switch:SW_SPST" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "SW" (id 0) (at 0 3.175 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1378,7 +1378,7 @@
         )
       )
     )
-    (symbol "acheronSymbols:Conn_ARM_JTAG_SWD_10"
+    (symbol "acheronSymbols:Conn_ARM_JTAG_SWD_10" (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at -2.54 16.51 0)
         (effects (font (size 1.27 1.27)) (justify right))
       )
@@ -1477,7 +1477,7 @@
         )
       )
     )
-    (symbol "acheronSymbols:DTC123J" (pin_names (offset 0) hide)
+    (symbol "acheronSymbols:DTC123J" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (id 0) (at 5.08 1.905 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -1624,7 +1624,7 @@
         )
       )
     )
-    (symbol "acheronSymbols:LED"
+    (symbol "acheronSymbols:LED" (in_bom yes) (on_board yes)
       (property "Reference" "LED" (id 0) (at 0 -3.81 0)
         (effects (font (size 0.508 0.508)))
       )
@@ -1691,7 +1691,7 @@
         )
       )
     )
-    (symbol "acheronSymbols:MXSwitch"
+    (symbol "acheronSymbols:MXSwitch" (in_bom yes) (on_board yes)
       (property "Reference" "SW" (id 0) (at 0 0 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1734,7 +1734,7 @@
         )
       )
     )
-    (symbol "acheronSymbols:Rotary_Encoder_Switch_Chassis" (pin_names (offset 0.254) hide)
+    (symbol "acheronSymbols:Rotary_Encoder_Switch_Chassis" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "SW" (id 0) (at 0 6.604 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1896,7 +1896,7 @@
         )
       )
     )
-    (symbol "acheronSymbols:STM32F072-LQFP48"
+    (symbol "acheronSymbols:STM32F072-LQFP48" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 1.27 0)
         (effects (font (size 2.0066 2.0066) bold))
       )
@@ -2109,7 +2109,7 @@
         )
       )
     )
-    (symbol "acheronSymbols:TYPE-C-31-M12_13"
+    (symbol "acheronSymbols:TYPE-C-31-M12_13" (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at -1.27 35.56 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -2297,7 +2297,7 @@
         )
       )
     )
-    (symbol "power:GND" (power) (pin_names (offset 0))
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -2336,7 +2336,7 @@
         )
       )
     )
-    (symbol "power:GNDPWR" (power) (pin_names (offset 0))
+    (symbol "power:GNDPWR" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -5.08 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -2420,7 +2420,7 @@
         )
       )
     )
-    (symbol "power:VBUS" (power) (pin_names (offset 0))
+    (symbol "power:VBUS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -2624,10 +2624,10 @@
   (junction (at 680.72 323.215) (diameter 1.016) (color 0 0 0 0))
   (junction (at 684.53 323.215) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 487.045 480.695))
-  (no_connect (at 487.045 475.615))
-  (no_connect (at 487.045 470.535))
   (no_connect (at 209.55 255.27))
+  (no_connect (at 487.045 470.535))
+  (no_connect (at 487.045 475.615))
+  (no_connect (at 487.045 480.695))
   (no_connect (at 209.55 252.73))
 
   (wire (pts (xy 34.29 315.595) (xy 36.83 315.595))
@@ -12310,934 +12310,934 @@
 
   (symbol_instances
     (path "/00000000-0000-0000-0000-00005e84a350"
-      (reference "#PWR01") (unit 1)
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005e7e6fe6"
-      (reference "#PWR02") (unit 1)
+      (reference "#PWR02") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/0622e1e5-2bea-4623-9937-1c4c5f5a2f01"
-      (reference "#PWR03") (unit 1)
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005e84ac9d"
-      (reference "#PWR04") (unit 1)
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005e84af33"
-      (reference "#PWR06") (unit 1)
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005e847cf1"
-      (reference "#PWR08") (unit 1)
+      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005e847067"
-      (reference "#PWR010") (unit 1)
+      (reference "#PWR010") (unit 1) (value "GNDPWR") (footprint "")
     )
     (path "/d31577f9-24c3-4da1-878d-82d23687b6fe"
-      (reference "#PWR0101") (unit 1)
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/b50ee2e3-1df2-453f-9310-dd2151f0362b"
-      (reference "#PWR0102") (unit 1)
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/b13a7308-7485-4349-bc11-bda30506944b"
-      (reference "#PWR0103") (unit 1)
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
     (path "/bf4fc765-cc32-462a-96b3-5d5fb25c0dee"
-      (reference "#PWR0104") (unit 1)
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
     (path "/b3d9f119-a4dd-4e84-bb56-2152c77aa604"
-      (reference "#PWR0105") (unit 1)
+      (reference "#PWR0105") (unit 1) (value "GNDPWR") (footprint "")
     )
     (path "/bcaea044-69ae-4431-b834-6f778072d689"
-      (reference "#PWR0106") (unit 1)
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
     (path "/70cfe9f5-9431-438e-910c-fd8226c265ed"
-      (reference "#PWR0107") (unit 1)
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
     )
     (path "/c0e5945d-260e-45b2-bd50-9a058e665cc3"
-      (reference "#PWR0108") (unit 1)
+      (reference "#PWR0108") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/f25f292b-19ba-4a4e-b806-2095f965556f"
-      (reference "#PWR0109") (unit 1)
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
     )
     (path "/4c89c888-c2d7-4509-ac83-84bfcb9696c8"
-      (reference "#PWR0110") (unit 1)
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
     (path "/f3cbbc6e-0f4a-4d73-89c9-2137d3c8fdfa"
-      (reference "#PWR0111") (unit 1)
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
     )
     (path "/1b469b09-5339-4db2-adf6-4735a478c4c9"
-      (reference "#PWR0112") (unit 1)
+      (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
     )
     (path "/8e9846db-495a-4ddd-9559-f36981c74f66"
-      (reference "#PWR0113") (unit 1)
+      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
     )
     (path "/70668212-db63-457b-943f-e526c4f53b3c"
-      (reference "#PWR0114") (unit 1)
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
     )
     (path "/751c4503-ba4a-44a7-b21c-bf53e79f685c"
-      (reference "#PWR0115") (unit 1)
+      (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
     )
     (path "/b9728cb8-f8f4-41b7-a280-795b05dff424"
-      (reference "#PWR0116") (unit 1)
+      (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
     )
     (path "/55d1887a-456e-4cb6-8017-482b84431151"
-      (reference "#PWR0117") (unit 1)
+      (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
     )
     (path "/cd87ed15-84e1-4498-90f4-9d3b99fbb5f4"
-      (reference "#PWR0118") (unit 1)
+      (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
     )
     (path "/3edfc566-ec97-4cd3-bea1-71e3f4e61250"
-      (reference "#PWR0119") (unit 1)
+      (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
     )
     (path "/07beffd9-eccc-4260-8113-62d18a2cea0c"
-      (reference "#PWR0120") (unit 1)
+      (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
     )
     (path "/746d218c-024b-4432-8168-f303b75b09e6"
-      (reference "#PWR0121") (unit 1)
+      (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
     )
     (path "/cca700ca-9f36-4496-acc2-22f96c6a9a95"
-      (reference "#PWR0122") (unit 1)
+      (reference "#PWR0122") (unit 1) (value "GND") (footprint "")
     )
     (path "/774f941d-c102-4c87-9617-516432bbd3c6"
-      (reference "#PWR0123") (unit 1)
+      (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
     )
     (path "/95468276-bfc8-460d-ae50-7ae1a6f04ea9"
-      (reference "#PWR0124") (unit 1)
+      (reference "#PWR0124") (unit 1) (value "GND") (footprint "")
     )
     (path "/4358b7d0-95cc-40a2-9ad1-25343cc9eb22"
-      (reference "#PWR0125") (unit 1)
+      (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
     )
     (path "/4737a013-aa30-4dfb-9bd3-d640d1a8dad5"
-      (reference "#PWR0126") (unit 1)
+      (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
     )
     (path "/35775c6a-0caa-466e-b096-ffff938b360c"
-      (reference "#PWR0127") (unit 1)
+      (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
     )
     (path "/6d81fbc0-42ab-47c6-a862-66f5cb7520b0"
-      (reference "#PWR0128") (unit 1)
+      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
     )
     (path "/3862da3d-32d3-4599-9069-65096f9a451b"
-      (reference "#PWR0129") (unit 1)
+      (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
     )
     (path "/cb065f2e-84dd-479a-9ec5-017f5f382314"
-      (reference "#PWR0130") (unit 1)
+      (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
     )
     (path "/a2b77e04-b919-45ca-a543-b00d4cc4c3c8"
-      (reference "#PWR0131") (unit 1)
+      (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
     )
     (path "/77249294-d63d-43ea-b778-3e772b82e1e4"
-      (reference "#PWR0132") (unit 1)
+      (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
     )
     (path "/014cdb54-d68f-4041-b1da-6d7e87641a38"
-      (reference "#PWR0133") (unit 1)
+      (reference "#PWR0133") (unit 1) (value "GND") (footprint "")
     )
     (path "/23f2ee13-ca89-421e-ab2e-418591703260"
-      (reference "#PWR0134") (unit 1)
+      (reference "#PWR0134") (unit 1) (value "GND") (footprint "")
     )
     (path "/fed7fc22-fffb-4ff2-ba3f-010fe511b624"
-      (reference "#PWR0135") (unit 1)
+      (reference "#PWR0135") (unit 1) (value "GND") (footprint "")
     )
     (path "/9697edf7-3785-4db3-b406-40187c6a9235"
-      (reference "#PWR0136") (unit 1)
+      (reference "#PWR0136") (unit 1) (value "GND") (footprint "")
     )
     (path "/9dba5699-b654-461b-bc74-f19918170f71"
-      (reference "#PWR0137") (unit 1)
+      (reference "#PWR0137") (unit 1) (value "GNDPWR") (footprint "")
     )
     (path "/2311eef6-390a-4d5b-8f92-e0b0a4ad05e0"
-      (reference "#PWR0138") (unit 1)
+      (reference "#PWR0138") (unit 1) (value "GND") (footprint "")
     )
     (path "/87272b88-db53-4cc8-85e4-ce4d6cb03036"
-      (reference "#PWR0139") (unit 1)
+      (reference "#PWR0139") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/d5cbfc85-2973-4610-b639-014fd5515a10"
-      (reference "#PWR0140") (unit 1)
+      (reference "#PWR0140") (unit 1) (value "GND") (footprint "")
     )
     (path "/105531e7-25a8-4824-af62-827bcb35f19b"
-      (reference "#PWR0141") (unit 1)
+      (reference "#PWR0141") (unit 1) (value "GNDPWR") (footprint "")
     )
     (path "/a7409107-18fd-4ba5-8128-fe716e2bb2e2"
-      (reference "#PWR0146") (unit 1)
+      (reference "#PWR0146") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/db672b04-a7e0-4d8f-a7d2-df77212ac24e"
-      (reference "C1") (unit 1)
+      (reference "C1") (unit 1) (value "1u") (footprint "acheron_Components:CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder")
     )
     (path "/be48e27f-cc4f-4590-a7fb-62d960566f29"
-      (reference "C2") (unit 1)
+      (reference "C2") (unit 1) (value "1u") (footprint "acheron_Components:CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder")
     )
     (path "/4c16dc71-111a-4703-8b68-a5c641fb85c8"
-      (reference "C3") (unit 1)
+      (reference "C3") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/2e3c4ce1-c8b1-449d-906e-78cec622c088"
-      (reference "C4") (unit 1)
+      (reference "C4") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/ac0c93e1-fcf0-41e4-b469-c1bd4c4f2ca0"
-      (reference "C5") (unit 1)
+      (reference "C5") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/3743be59-a3f0-43bd-b4a8-bbbfdd8b6654"
-      (reference "C6") (unit 1)
+      (reference "C6") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a3112f09-9132-4c4c-850b-90f229852df9"
-      (reference "C7") (unit 1)
+      (reference "C7") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/b3f2bfbf-1532-422e-88d9-e413ecdb2a88"
-      (reference "C8") (unit 1)
+      (reference "C8") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/ed046096-bfd6-4857-a93e-73791bd8ce38"
-      (reference "C9") (unit 1)
+      (reference "C9") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/4d4c6032-6221-469c-acf4-afea7029909e"
-      (reference "C10") (unit 1)
+      (reference "C10") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/c171ce33-3606-4c86-bf04-771d1a0ac712"
-      (reference "C11") (unit 1)
+      (reference "C11") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/89574019-9662-4098-b398-02f9297018fc"
-      (reference "C12") (unit 1)
+      (reference "C12") (unit 1) (value "470n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/fa563384-b728-4dcb-903c-9bbc51a19dcc"
-      (reference "C13") (unit 1)
+      (reference "C13") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/6c435a68-18dc-42c3-8cde-60fd06c33b7f"
-      (reference "C14") (unit 1)
+      (reference "C14") (unit 1) (value "470n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/cb1f109b-8f90-45c2-8920-55da572feb24"
-      (reference "C15") (unit 1)
+      (reference "C15") (unit 1) (value "22u") (footprint "acheron_Components:CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder")
     )
     (path "/9eb3dc35-0c26-4b49-89e0-902cf352284e"
-      (reference "C16") (unit 1)
+      (reference "C16") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/aee32542-9420-427b-8aeb-0e94a5b47a15"
-      (reference "C17") (unit 1)
+      (reference "C17") (unit 1) (value "470n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a67b3d76-d22c-4f18-8bd0-00c4841b3351"
-      (reference "C18") (unit 1)
+      (reference "C18") (unit 1) (value "470n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/2699d13f-3ddb-4f5d-885b-c135bcbb7130"
-      (reference "C19") (unit 1)
+      (reference "C19") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d32def85-dd55-4622-9b02-70c79edc16f3"
-      (reference "C20") (unit 1)
+      (reference "C20") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/086c3813-bd5f-47bc-8bac-d2347dab1be9"
-      (reference "C21") (unit 1)
+      (reference "C21") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/cf8dd6a4-4583-4751-ba4f-4dd3b0a6b6ca"
-      (reference "C22") (unit 1)
+      (reference "C22") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ea5d2a5"
-      (reference "D1") (unit 1)
+      (reference "D1") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea64807"
-      (reference "D2") (unit 1)
+      (reference "D2") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea65927"
-      (reference "D3") (unit 1)
+      (reference "D3") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea65920"
-      (reference "D4") (unit 1)
+      (reference "D4") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea683e2"
-      (reference "D5") (unit 1)
+      (reference "D5") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea683d4"
-      (reference "D6") (unit 1)
+      (reference "D6") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea683cd"
-      (reference "D7") (unit 1)
+      (reference "D7") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea683db"
-      (reference "D8") (unit 1)
+      (reference "D8") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea6b6fe"
-      (reference "D9") (unit 1)
+      (reference "D9") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea6b6db"
-      (reference "D10") (unit 1)
+      (reference "D10") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea6b6d4"
-      (reference "D11") (unit 1)
+      (reference "D11") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea6b6e9"
-      (reference "D12") (unit 1)
+      (reference "D12") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea6b6f0"
-      (reference "D13") (unit 1)
+      (reference "D13") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea6b6e2"
-      (reference "D14") (unit 1)
+      (reference "D14") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea6b6f7"
-      (reference "D15") (unit 1)
+      (reference "D15") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea74ab7"
-      (reference "D16") (unit 1)
+      (reference "D16") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea74a6a"
-      (reference "D17") (unit 1)
+      (reference "D17") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea74a63"
-      (reference "D18") (unit 1)
+      (reference "D18") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea74a7f"
-      (reference "D19") (unit 1)
+      (reference "D19") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea74a86"
-      (reference "D20") (unit 1)
+      (reference "D20") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea74a71"
-      (reference "D21") (unit 1)
+      (reference "D21") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea74a9b"
-      (reference "D22") (unit 1)
+      (reference "D22") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea74abe"
-      (reference "D23") (unit 1)
+      (reference "D23") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea74aa2"
-      (reference "D24") (unit 1)
+      (reference "D24") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea74a8d"
-      (reference "D25") (unit 1)
+      (reference "D25") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea74a78"
-      (reference "D26") (unit 1)
+      (reference "D26") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea74ac5"
-      (reference "D27") (unit 1)
+      (reference "D27") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea74ab0"
-      (reference "D28") (unit 1)
+      (reference "D28") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea74a94"
-      (reference "D29") (unit 1)
+      (reference "D29") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea74aa9"
-      (reference "D30") (unit 1)
+      (reference "D30") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7c168"
-      (reference "D31") (unit 1)
+      (reference "D31") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7c161"
-      (reference "D32") (unit 1)
+      (reference "D32") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7c16f"
-      (reference "D33") (unit 1)
+      (reference "D33") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7c14c"
-      (reference "D34") (unit 1)
+      (reference "D34") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7c176"
-      (reference "D35") (unit 1)
+      (reference "D35") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7c145"
-      (reference "D36") (unit 1)
+      (reference "D36") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7c114"
-      (reference "D37") (unit 1)
+      (reference "D37") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7c122"
-      (reference "D38") (unit 1)
+      (reference "D38") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7c137"
-      (reference "D39") (unit 1)
+      (reference "D39") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7c153"
-      (reference "D40") (unit 1)
+      (reference "D40") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7c13e"
-      (reference "D41") (unit 1)
+      (reference "D41") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7c129"
-      (reference "D42") (unit 1)
+      (reference "D42") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7c15a"
-      (reference "D43") (unit 1)
+      (reference "D43") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7c11b"
-      (reference "D44") (unit 1)
+      (reference "D44") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7fe8b"
-      (reference "D45") (unit 1)
+      (reference "D45") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7fea0"
-      (reference "D46") (unit 1)
+      (reference "D46") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7fec3"
-      (reference "D47") (unit 1)
+      (reference "D47") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7fe99"
-      (reference "D48") (unit 1)
+      (reference "D48") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7fedf"
-      (reference "D49") (unit 1)
+      (reference "D49") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7fe84"
-      (reference "D50") (unit 1)
+      (reference "D50") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7fed1"
-      (reference "D51") (unit 1)
+      (reference "D51") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7feb5"
-      (reference "D52") (unit 1)
+      (reference "D52") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7febc"
-      (reference "D53") (unit 1)
+      (reference "D53") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7feca"
-      (reference "D54") (unit 1)
+      (reference "D54") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7feae"
-      (reference "D55") (unit 1)
+      (reference "D55") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7fea7"
-      (reference "D56") (unit 1)
+      (reference "D56") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea7fe7d"
-      (reference "D57") (unit 1)
+      (reference "D57") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea8f5e1"
-      (reference "D58") (unit 1)
+      (reference "D58") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea8f5f6"
-      (reference "D59") (unit 1)
+      (reference "D59") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea8f5da"
-      (reference "D60") (unit 1)
+      (reference "D60") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea8f5e8"
-      (reference "D61") (unit 1)
+      (reference "D61") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea8f5fd"
-      (reference "D62") (unit 1)
+      (reference "D62") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea8f620"
-      (reference "D63") (unit 1)
+      (reference "D63") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-00005ea8f612"
-      (reference "D64") (unit 1)
+      (reference "D64") (unit 1) (value "1N4148W") (footprint "Acheron Components:D_SOD-123")
     )
     (path "/ed5fe7a6-c0f8-4f52-9225-4fca8900f49a"
-      (reference "D65") (unit 1)
+      (reference "D65") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "Acheron Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/88f93216-ed87-4a81-9f43-a7fa8ebd5434"
-      (reference "D66") (unit 1)
+      (reference "D66") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/521d213e-9233-4233-8ed8-1a984dddb88c"
-      (reference "D67") (unit 1)
+      (reference "D67") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/35abbf1d-8e57-4a81-b6b3-4da3bddf3582"
-      (reference "D68") (unit 1)
+      (reference "D68") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/0b9af26b-0d92-490b-867e-fb343c99ac9f"
-      (reference "D69") (unit 1)
+      (reference "D69") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/74fbe8cb-bb1d-4a59-a70e-0d26d9f75252"
-      (reference "D70") (unit 1)
+      (reference "D70") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/813341af-29e5-413b-8e00-b9765fafff4d"
-      (reference "D71") (unit 1)
+      (reference "D71") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/6dca8b1d-a2b4-4a73-89fc-84be170754a2"
-      (reference "D72") (unit 1)
+      (reference "D72") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/4838c9f9-db89-48df-b659-583153d0a338"
-      (reference "D73") (unit 1)
+      (reference "D73") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/02122890-4aba-449e-8b87-78422d52b62d"
-      (reference "D74") (unit 1)
+      (reference "D74") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/767eeb38-21c5-40cd-9f7e-0ed160d42b9a"
-      (reference "D75") (unit 1)
+      (reference "D75") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/95268525-e7e1-45b1-b4ad-124e3238ec05"
-      (reference "D76") (unit 1)
+      (reference "D76") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/ee0c949f-3f56-4229-a587-2ed5df680f2c"
-      (reference "D77") (unit 1)
+      (reference "D77") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/d2e6de6e-df41-46fb-b054-c9424e9159b4"
-      (reference "D78") (unit 1)
+      (reference "D78") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/7d16c7a4-04a3-4303-ac20-d1e273ca8258"
-      (reference "D79") (unit 1)
+      (reference "D79") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/9921677a-cd7f-4989-b830-87d3edd9a758"
-      (reference "D80") (unit 1)
+      (reference "D80") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/cf2d5e33-95c1-4a3f-9ee7-4645bdb4c022"
-      (reference "D81") (unit 1)
+      (reference "D81") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/d87ceb50-8837-4edb-90b9-79e780c2c247"
-      (reference "D82") (unit 1)
+      (reference "D82") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/1277a901-262c-484e-a3a5-a5cdf47144a9"
-      (reference "D83") (unit 1)
+      (reference "D83") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/3e7798ef-4277-4b6f-8764-641a80426147"
-      (reference "D84") (unit 1)
+      (reference "D84") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/e8c791e6-4bd1-4800-8cd2-107dd29d2bf5"
-      (reference "D85") (unit 1)
+      (reference "D85") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/0f04818d-25e8-4a59-88a4-2c220b6fc5af"
-      (reference "D86") (unit 1)
+      (reference "D86") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/ee6f1bf5-95b7-4f1e-8727-e09ebecb5aa3"
-      (reference "D87") (unit 1)
+      (reference "D87") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/1880b12f-26ac-4585-97ac-66bb896bf289"
-      (reference "D88") (unit 1)
+      (reference "D88") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/a9bf385b-b1da-42f0-9662-ae07272dbe68"
-      (reference "D89") (unit 1)
+      (reference "D89") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/b465a6be-27ad-4926-b69a-52e083d86af1"
-      (reference "D90") (unit 1)
+      (reference "D90") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/688e6bbd-d518-4f78-a888-a6bdec09d23b"
-      (reference "D91") (unit 1)
+      (reference "D91") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/3e3f024d-0795-4fd6-ac26-21d3cd1b0bc9"
-      (reference "D92") (unit 1)
+      (reference "D92") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/7eb99c6d-fa96-461f-bb9a-c59bbe945db0"
-      (reference "D93") (unit 1)
+      (reference "D93") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/e03e810a-6668-44a8-ac8a-d36df5c2ebb2"
-      (reference "D94") (unit 1)
+      (reference "D94") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/e54a3d10-1703-4aa3-b885-05a667793ae7"
-      (reference "D95") (unit 1)
+      (reference "D95") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/f3591bf2-5039-407a-8c58-b1b01b7fad57"
-      (reference "D96") (unit 1)
+      (reference "D96") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/da6bd3c2-5375-40f2-9827-e45e325b783d"
-      (reference "D97") (unit 1)
+      (reference "D97") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/dcbe498f-b2e0-4cb1-817c-42642319940c"
-      (reference "D98") (unit 1)
+      (reference "D98") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/e1f9015b-2aa6-471e-8cdf-9ad3d3a647bf"
-      (reference "D99") (unit 1)
+      (reference "D99") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/9fb5f125-0fbe-40b9-a5b8-d091ef6c282f"
-      (reference "D100") (unit 1)
+      (reference "D100") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/8224b55f-17fe-463a-874e-d6966066e123"
-      (reference "D101") (unit 1)
+      (reference "D101") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/3c9cde29-9b5c-483f-aa11-280941480a7c"
-      (reference "D102") (unit 1)
+      (reference "D102") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/d10e844c-9615-40ee-8412-ad3a5b2d8cda"
-      (reference "D103") (unit 1)
+      (reference "D103") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/7fbf5ca0-58ad-46a3-9b69-c281778c62f4"
-      (reference "D104") (unit 1)
+      (reference "D104") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/7041801c-8dfa-4f23-a8fe-569c662d2d21"
-      (reference "D105") (unit 1)
+      (reference "D105") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/66866ced-cf31-4371-8988-7685d28aa5b1"
-      (reference "D106") (unit 1)
+      (reference "D106") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/94ed2620-8e9d-4c26-a3aa-e14010e4a713"
-      (reference "D107") (unit 1)
+      (reference "D107") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/64ef3597-47f6-4f60-b88f-dc68ac79f422"
-      (reference "D108") (unit 1)
+      (reference "D108") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/21dce98d-c49b-4e40-ac03-b9c485e0ae32"
-      (reference "D109") (unit 1)
+      (reference "D109") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/e45f0c08-1c30-4bae-b7fa-32137684bf5e"
-      (reference "D110") (unit 1)
+      (reference "D110") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/68552369-4291-4941-a2c0-b1af4c25d93a"
-      (reference "D111") (unit 1)
+      (reference "D111") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/976b46ab-1e65-45d6-9ec8-004318cc4e60"
-      (reference "D112") (unit 1)
+      (reference "D112") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/9bd8d42a-0eac-4fd5-b857-ab31e1a6efeb"
-      (reference "D113") (unit 1)
+      (reference "D113") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/17d7ba25-8c22-43a5-9a8b-d19c257f23fc"
-      (reference "D114") (unit 1)
+      (reference "D114") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/db32d909-36f4-4e2c-a26d-71f21de6f138"
-      (reference "D115") (unit 1)
+      (reference "D115") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/861ed4cc-8a6a-4b7a-952f-9ae15bad7689"
-      (reference "D116") (unit 1)
+      (reference "D116") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/4c274dea-efea-421b-a5d1-03b7c9180ffb"
-      (reference "D117") (unit 1)
+      (reference "D117") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/b4f6347d-ff73-4e5f-9109-4d2a8a029580"
-      (reference "D118") (unit 1)
+      (reference "D118") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/a421f3be-7ba3-4042-bd05-dd24748d09c5"
-      (reference "D119") (unit 1)
+      (reference "D119") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/852aa6cd-4989-41f0-8086-c801a799b365"
-      (reference "D120") (unit 1)
+      (reference "D120") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/4b6032ae-f51e-47f7-ae76-f2c6d37f8de5"
-      (reference "D121") (unit 1)
+      (reference "D121") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/7b7f0dbd-6593-43ea-a04f-bee9f59acc97"
-      (reference "D122") (unit 1)
+      (reference "D122") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/241a8e79-9592-4e4e-913d-ebf1c7fa7ebd"
-      (reference "D123") (unit 1)
+      (reference "D123") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/0c76ded5-96ad-409f-b64d-0fd6195da9d8"
-      (reference "D124") (unit 1)
+      (reference "D124") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/86ee624b-2df9-4c69-8f7c-78a806013dc2"
-      (reference "D125") (unit 1)
+      (reference "D125") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/f6609013-fb17-471d-a660-19440d994888"
-      (reference "D126") (unit 1)
+      (reference "D126") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/6150c97b-e236-41f4-8251-3e7dac6ea4a9"
-      (reference "D127") (unit 1)
+      (reference "D127") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/dc782e1c-62d0-4a70-bdee-bea19e574212"
-      (reference "D128") (unit 1)
+      (reference "D128") (unit 1) (value "CP-6028SMDRGBC-CA") (footprint "acheron_Components:LED_RGB_SMD_6028_2.8x3.5mm_Round")
     )
     (path "/b2031b99-175a-4acd-a585-448719667481"
-      (reference "D129") (unit 1)
+      (reference "D129") (unit 1) (value "RB060M-60TR") (footprint "acheron_Components:D_SOD-123")
     )
     (path "/d3799823-9c12-4ae3-a1e0-ccf58d22a03e"
-      (reference "D130") (unit 1)
+      (reference "D130") (unit 1) (value "1N4148W") (footprint "acheron_Components:D_SOD-123")
     )
     (path "/0e32caae-c232-4e7d-b395-f6929d8ca797"
-      (reference "D131") (unit 1)
+      (reference "D131") (unit 1) (value "1N4148W") (footprint "acheron_Components:D_SOD-123")
     )
     (path "/0667e410-8ff3-45c5-a4c4-465b4a5d3238"
-      (reference "D132") (unit 1)
+      (reference "D132") (unit 1) (value "1N4148W") (footprint "acheron_Components:D_SOD-123")
     )
     (path "/cc76fa33-26d3-4388-b6f6-38251073d631"
-      (reference "D133") (unit 1)
+      (reference "D133") (unit 1) (value "1N4148W") (footprint "acheron_Components:D_SOD-123")
     )
     (path "/4ac588d4-19b6-408e-833a-1c842389cfb3"
-      (reference "F1") (unit 1)
+      (reference "F1") (unit 1) (value "mSMD110-16V") (footprint "Fuse:Fuse_1812_4532Metric")
     )
     (path "/00000000-0000-0000-0000-00005e7d3984"
-      (reference "G1") (unit 1)
+      (reference "G1") (unit 1) (value "Mad Hatter Logo") (footprint "Mad Hatter Graphics:mad_hatter_logo-20x22")
     )
     (path "/9fc9e4ec-5592-4b05-a1f4-f9c6efcbe833"
-      (reference "G2") (unit 1)
+      (reference "G2") (unit 1) (value "Mad Hatter Logo") (footprint "acheron_Graphics:osh-logo")
     )
     (path "/ae5cee6d-83e1-4114-a6c0-48b8bab3b617"
-      (reference "G3") (unit 1)
+      (reference "G3") (unit 1) (value "Mad Hatter label") (footprint "mad_hatter_graphics:mad_hatter_label")
     )
     (path "/fae475f5-3655-42c2-bcf5-d6a1ce8851b8"
-      (reference "G4") (unit 1)
+      (reference "G4") (unit 1) (value "Acheron Back Plated Logo") (footprint "acheron_Logos:acheronLong_40x12mm_Plated")
     )
     (path "/77fb43de-0d63-42f4-956b-b971f01537ae"
-      (reference "J1") (unit 1)
+      (reference "J1") (unit 1) (value "TYPE-C-31-M12_13") (footprint "acheron_Connectors:TYPE-C-31-M-12")
     )
     (path "/c3549226-ccb7-416a-a297-7532fee3fe3a"
-      (reference "J2") (unit 1)
+      (reference "J2") (unit 1) (value "Conn_ARM_JTAG_SWD_10") (footprint "acheron_Connectors:Conn_ARM_JTAG_SWD_10")
     )
     (path "/e5366ec0-23f6-4c5e-9964-bec95bbf3030"
-      (reference "J3") (unit 1)
+      (reference "J3") (unit 1) (value "EXTRA ") (footprint "Connector_PinHeader_1.00mm:PinHeader_2x06_P1.00mm_Vertical")
     )
     (path "/9473e316-df14-4901-bf72-2650c6bffa1e"
-      (reference "J4") (unit 1)
+      (reference "J4") (unit 1) (value "TYPE-C-31-M12_13") (footprint "acheron_Connectors:TYPE-C-31-M-12")
     )
     (path "/00000000-0000-0000-0000-00005e844ee2"
-      (reference "L1") (unit 1)
+      (reference "L1") (unit 1) (value "120R@100MHz") (footprint "Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/4c44a311-7ec8-4140-a508-e038050a39e4"
-      (reference "L2") (unit 1)
+      (reference "L2") (unit 1) (value "120R@100MHz") (footprint "Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/fa17a73c-11f1-43c0-86e4-2c8ac6221f9f"
-      (reference "L3") (unit 1)
+      (reference "L3") (unit 1) (value "120R@100MHz") (footprint "Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005e7cefce"
-      (reference "LED1") (unit 1)
+      (reference "LED1") (unit 1) (value "LED") (footprint "Acheron Components:LED_THT_2.54mm")
     )
     (path "/00000000-0000-0000-0000-00005e7d0d35"
-      (reference "LED2") (unit 1)
+      (reference "LED2") (unit 1) (value "LED") (footprint "Acheron Components:LED_THT_2.54mm")
     )
     (path "/00000000-0000-0000-0000-00005e7d248f"
-      (reference "LED3") (unit 1)
+      (reference "LED3") (unit 1) (value "LED") (footprint "Acheron Components:LED_THT_2.54mm")
     )
     (path "/a1191e35-4e0e-402d-bacc-c10b05af8bf9"
-      (reference "Q1") (unit 1)
+      (reference "Q1") (unit 1) (value "DTC123JKAT146") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00005e80fd3f"
-      (reference "R1") (unit 1)
+      (reference "R1") (unit 1) (value "420R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005e825419"
-      (reference "R2") (unit 1)
+      (reference "R2") (unit 1) (value "420R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005e826929"
-      (reference "R3") (unit 1)
+      (reference "R3") (unit 1) (value "420R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/0742d0e9-bcfa-4b1c-b217-221077fbd6df"
-      (reference "R4") (unit 1)
+      (reference "R4") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/24876d1e-3820-49ba-ac5f-fec5fdc8254b"
-      (reference "R5") (unit 1)
+      (reference "R5") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/3463ada2-cd7f-43b3-a77d-47a1341887f7"
-      (reference "R6") (unit 1)
+      (reference "R6") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/2aa21171-0a4c-467e-befd-1ac37ce40613"
-      (reference "R7") (unit 1)
+      (reference "R7") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/e401213b-99d3-44f7-9cb7-8393977a6b22"
-      (reference "R8") (unit 1)
+      (reference "R8") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/3c488c08-34a6-4c31-815b-370b59f7a318"
-      (reference "R9") (unit 1)
+      (reference "R9") (unit 1) (value "20k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/e219e0aa-27fe-4aa3-90c3-950a4ac1a55f"
-      (reference "R10") (unit 1)
+      (reference "R10") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/aa47a0d3-b022-414b-a63b-45319f39d5ac"
-      (reference "R11") (unit 1)
+      (reference "R11") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/8a75eb45-5d16-4e87-988d-742691ef3d50"
-      (reference "R12") (unit 1)
+      (reference "R12") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/4debb533-874e-4643-8f34-acd91f6f1cb2"
-      (reference "R13") (unit 1)
+      (reference "R13") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/b8050899-d704-4867-a055-d5e52d1b2850"
-      (reference "R14") (unit 1)
+      (reference "R14") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/b2369848-2c0e-4247-9a75-d310bf3d58c9"
-      (reference "R15") (unit 1)
+      (reference "R15") (unit 1) (value "330K") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/c51f32b8-a379-4dbe-b94f-a70275c64ae5"
-      (reference "R16") (unit 1)
+      (reference "R16") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d0a7a738-5a99-41ac-bdbd-8da7827c5599"
-      (reference "R17") (unit 1)
+      (reference "R17") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/2768bca0-c016-41cf-bbda-b00055d5a24f"
-      (reference "R18") (unit 1)
+      (reference "R18") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/2bddf6e3-ac16-4bac-b57a-52553b15b0c8"
-      (reference "S1") (unit 1)
+      (reference "S1") (unit 1) (value "K2-1187SQ-A4SW-06") (footprint "acheron_Hardware:K2-1187SQ-A4SW-06")
     )
     (path "/00000000-0000-0000-0000-00005e75e92d"
-      (reference "SW1") (unit 1)
+      (reference "SW1") (unit 1) (value "ESC") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e757ad4"
-      (reference "SW2") (unit 1)
+      (reference "SW2") (unit 1) (value "GRV") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e7596cd"
-      (reference "SW3") (unit 1)
+      (reference "SW3") (unit 1) (value "1") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e75b40d"
-      (reference "SW4") (unit 1)
+      (reference "SW4") (unit 1) (value "2") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e75bbec"
-      (reference "SW5") (unit 1)
+      (reference "SW5") (unit 1) (value "3") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e75c738"
-      (reference "SW6") (unit 1)
+      (reference "SW6") (unit 1) (value "4") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e75d122"
-      (reference "SW7") (unit 1)
+      (reference "SW7") (unit 1) (value "5") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e75d9c5"
-      (reference "SW8") (unit 1)
+      (reference "SW8") (unit 1) (value "6") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e760d97"
-      (reference "SW9") (unit 1)
+      (reference "SW9") (unit 1) (value "7") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e7614a7"
-      (reference "SW10") (unit 1)
+      (reference "SW10") (unit 1) (value "8") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e761ad3"
-      (reference "SW11") (unit 1)
+      (reference "SW11") (unit 1) (value "9") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e762264"
-      (reference "SW12") (unit 1)
+      (reference "SW12") (unit 1) (value "0") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e762968"
-      (reference "SW13") (unit 1)
+      (reference "SW13") (unit 1) (value "MINUS") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e762f4f"
-      (reference "SW14") (unit 1)
+      (reference "SW14") (unit 1) (value "EQUAL") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e764add"
-      (reference "SW15") (unit 1)
+      (reference "SW15") (unit 1) (value "2U BKSP") (footprint "Acheron MX SolderMask:MX200")
     )
     (path "/00000000-0000-0000-0000-00005e76d591"
-      (reference "SW16") (unit 1)
+      (reference "SW16") (unit 1) (value "PGUP") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e76d63c"
-      (reference "SW17") (unit 1)
+      (reference "SW17") (unit 1) (value "TAB") (footprint "Acheron MX SolderMask:MX150")
     )
     (path "/00000000-0000-0000-0000-00005e76d603"
-      (reference "SW18") (unit 1)
+      (reference "SW18") (unit 1) (value "Q") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e76d57e"
-      (reference "SW19") (unit 1)
+      (reference "SW19") (unit 1) (value "W") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e76d5b7"
-      (reference "SW20") (unit 1)
+      (reference "SW20") (unit 1) (value "E") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e76d5a4"
-      (reference "SW21") (unit 1)
+      (reference "SW21") (unit 1) (value "R") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e76d558"
-      (reference "SW22") (unit 1)
+      (reference "SW22") (unit 1) (value "T") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e76d629"
-      (reference "SW23") (unit 1)
+      (reference "SW23") (unit 1) (value "Y") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e76d5f0"
-      (reference "SW24") (unit 1)
+      (reference "SW24") (unit 1) (value "U") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e76d64f"
-      (reference "SW25") (unit 1)
+      (reference "SW25") (unit 1) (value "I") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e76d688"
-      (reference "SW26") (unit 1)
+      (reference "SW26") (unit 1) (value "O") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e76d56b"
-      (reference "SW27") (unit 1)
+      (reference "SW27") (unit 1) (value "P") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e76d5ca"
-      (reference "SW28") (unit 1)
+      (reference "SW28") (unit 1) (value "LBRACE") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e76d675"
-      (reference "SW29") (unit 1)
+      (reference "SW29") (unit 1) (value "RBRACE") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e76d662"
-      (reference "SW30") (unit 1)
+      (reference "SW30") (unit 1) (value "BACK SLASH") (footprint "Acheron MX SolderMask:MX150")
     )
     (path "/00000000-0000-0000-0000-00005e77e5bd"
-      (reference "SW31") (unit 1)
+      (reference "SW31") (unit 1) (value "PGDN") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e77e4ec"
-      (reference "SW32") (unit 1)
+      (reference "SW32") (unit 1) (value "FULL CAPS") (footprint "Acheron MX SolderMask:MX175")
     )
     (path "/00000000-0000-0000-0000-00005e77e4c6"
-      (reference "SW33") (unit 1)
+      (reference "SW33") (unit 1) (value "A") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e77e584"
-      (reference "SW34") (unit 1)
+      (reference "SW34") (unit 1) (value "S") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e77e54b"
-      (reference "SW35") (unit 1)
+      (reference "SW35") (unit 1) (value "D") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e77e525"
-      (reference "SW36") (unit 1)
+      (reference "SW36") (unit 1) (value "F") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e77e512"
-      (reference "SW37") (unit 1)
+      (reference "SW37") (unit 1) (value "G") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e77e538"
-      (reference "SW38") (unit 1)
+      (reference "SW38") (unit 1) (value "H") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e77e5d0"
-      (reference "SW39") (unit 1)
+      (reference "SW39") (unit 1) (value "J") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e77e4ff"
-      (reference "SW40") (unit 1)
+      (reference "SW40") (unit 1) (value "K") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e77e4d9"
-      (reference "SW41") (unit 1)
+      (reference "SW41") (unit 1) (value "L") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e77e571"
-      (reference "SW42") (unit 1)
+      (reference "SW42") (unit 1) (value "COLON") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e77e55e"
-      (reference "SW43") (unit 1)
+      (reference "SW43") (unit 1) (value "QUOTE") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e77e597"
-      (reference "SW44") (unit 1)
+      (reference "SW44") (unit 1) (value "ENTER") (footprint "Acheron MX SolderMask:MX225R")
     )
     (path "/00000000-0000-0000-0000-00005e79ed6f"
-      (reference "SW45") (unit 1)
+      (reference "SW45") (unit 1) (value "LSHIFT") (footprint "Acheron MX SolderMask:MX225")
     )
     (path "/00000000-0000-0000-0000-00005e79eda8"
-      (reference "SW46") (unit 1)
+      (reference "SW46") (unit 1) (value "Z") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e79ecc4"
-      (reference "SW47") (unit 1)
+      (reference "SW47") (unit 1) (value "X") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e79ed82"
-      (reference "SW48") (unit 1)
+      (reference "SW48") (unit 1) (value "C") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e79ed36"
-      (reference "SW49") (unit 1)
+      (reference "SW49") (unit 1) (value "V") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e79ecd7"
-      (reference "SW50") (unit 1)
+      (reference "SW50") (unit 1) (value "B") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e79ec9e"
-      (reference "SW51") (unit 1)
+      (reference "SW51") (unit 1) (value "EXTRA") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e79ed95"
-      (reference "SW52") (unit 1)
+      (reference "SW52") (unit 1) (value "N") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e79ecea"
-      (reference "SW53") (unit 1)
+      (reference "SW53") (unit 1) (value "M") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e79ecfd"
-      (reference "SW54") (unit 1)
+      (reference "SW54") (unit 1) (value "COMMA") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e7a6983"
-      (reference "SW55") (unit 1)
+      (reference "SW55") (unit 1) (value "DOT") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e7aa78d"
-      (reference "SW56") (unit 1)
+      (reference "SW56") (unit 1) (value "SLASH") (footprint "Acheron MX SolderMask:MX100")
     )
     (path "/00000000-0000-0000-0000-00005e7abffa"
-      (reference "SW57") (unit 1)
+      (reference "SW57") (unit 1) (value "2.75U RSHIFT") (footprint "Acheron MX SolderMask:MX275")
     )
     (path "/00000000-0000-0000-0000-00005e7bc33c"
-      (reference "SW58") (unit 1)
+      (reference "SW58") (unit 1) (value "LCTRL") (footprint "Acheron MX SolderMask:MX150")
     )
     (path "/00000000-0000-0000-0000-00005e7bd7de"
-      (reference "SW59") (unit 1)
+      (reference "SW59") (unit 1) (value "LALT") (footprint "Acheron MX SolderMask:MX150")
     )
     (path "/00000000-0000-0000-0000-00005e7bf8cb"
-      (reference "SW60") (unit 1)
+      (reference "SW60") (unit 1) (value "LEFT SPACE") (footprint "Acheron MX SolderMask:MX200R")
     )
     (path "/00000000-0000-0000-0000-00005e7c0c46"
-      (reference "SW61") (unit 1)
+      (reference "SW61") (unit 1) (value "LEFT SPACE") (footprint "Acheron MX SolderMask:MX125")
     )
     (path "/00000000-0000-0000-0000-00005e7c24d8"
-      (reference "SW62") (unit 1)
+      (reference "SW62") (unit 1) (value "RIGHT SPACE") (footprint "Acheron MX SolderMask:MX275R")
     )
     (path "/00000000-0000-0000-0000-00005e7c24fe"
-      (reference "SW63") (unit 1)
+      (reference "SW63") (unit 1) (value "RIGHT ALT") (footprint "Acheron MX SolderMask:MX150")
     )
     (path "/00000000-0000-0000-0000-00005e7c6103"
-      (reference "SW64") (unit 1)
+      (reference "SW64") (unit 1) (value "RIGHT CTRL") (footprint "Acheron MX SolderMask:MX150")
     )
     (path "/00000000-0000-0000-0000-00005eef6a6e"
-      (reference "SW65") (unit 1)
+      (reference "SW65") (unit 1) (value "EC11Ex") (footprint "Acheron Hardware:ALPS_EC11E")
     )
     (path "/00000000-0000-0000-0000-00005eefd403"
-      (reference "SW66") (unit 1)
+      (reference "SW66") (unit 1) (value "EC11Ex") (footprint "Acheron Hardware:ALPS_EC11E")
     )
     (path "/00000000-0000-0000-0000-00005eefe3b2"
-      (reference "SW67") (unit 1)
+      (reference "SW67") (unit 1) (value "EC11Ex") (footprint "Acheron Hardware:ALPS_EC11E")
     )
     (path "/00000000-0000-0000-0000-00005e7e2e46"
-      (reference "U1") (unit 1)
+      (reference "U1") (unit 1) (value "USBLC6-2SC6") (footprint "acheron_Components:SOT-23-6")
     )
     (path "/a021b41a-6ec6-43ba-9fc3-f831283f05b4"
-      (reference "U2") (unit 1)
+      (reference "U2") (unit 1) (value "IS31FL3733-QF") (footprint "acheron_Components:QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm")
     )
     (path "/4ec06910-1592-456f-9d7d-264391112cc2"
-      (reference "U3") (unit 1)
+      (reference "U3") (unit 1) (value "STM32F072CBT6") (footprint "acheron_Components:LQFP-48_7x7mm_P0.5mm")
     )
     (path "/fee91095-0590-4509-a078-e2c2602f3d6d"
-      (reference "U4") (unit 1)
+      (reference "U4") (unit 1) (value "MCP1700T-3302E/TT") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
   )
 )
